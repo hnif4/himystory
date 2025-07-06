@@ -386,17 +386,14 @@ header {
   color: var(--primary-color);
 }
 
-.story-info p {
-  font-size: 0.95rem;
-  color: var(--secondary-text-color);
-  margin-bottom: 0.5rem;
-
+.story-list .story-info p {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
 }
+
 
 .story-info small {
   color: gray;
@@ -455,11 +452,16 @@ header {
   margin-bottom: 0.3rem;
 }
 
-.story-info p {
-  color: var(--secondary-text-color);
+.detail-description {
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
   font-size: 1rem;
+  color: var(--secondary-text-color);
   line-height: 1.6;
+  display: block;
+  max-height: none; 
 }
+
 
 .story-info small {
   font-size: 0.85rem;
@@ -491,6 +493,22 @@ header {
   color: #666;
   font-weight: normal;
 }
+
+.btn-bookmark {
+  background-color: #6c63ff;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-bookmark:hover {
+  background-color: #574fdd;
+}
+
 
 
 /* NEW FORM STORY */

@@ -28,7 +28,7 @@ export async function updateNavigation() {
 
     navList.innerHTML = `
       <li><a href="#/">Beranda</a></li>
-      <li><a href="#/bookmark">Cerita Tersimpan</a></li>
+      <li><a href="#/bookmark">Cerita Favorit</a></li>
       <li><a href="#/add">Tambah Cerita</a></li>
       <li><a href="#/about">About</a></li>
       <li><button id="subscribe-btn" class="nav-button">${subscribeButtonLabel}</button></li>
