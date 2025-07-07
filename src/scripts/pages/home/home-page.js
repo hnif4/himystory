@@ -23,7 +23,7 @@ export default class HomePage {
         <div id="story-map" style="height: 400px;"></div>
       </section>
 
-      <section class="container" aria-labelledby="stories-heading">
+      <section class="story-container" aria-labelledby="stories-heading">
         <h2>🚀 Cerita Inspiratif </h2>
         <div id="story-list" class="story-list"></div>
       </section>

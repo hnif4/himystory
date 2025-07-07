@@ -47,7 +47,7 @@ export default class BookmarkStoryPage {
         <div class="story-info">
           <h2>${story.name}</h2>
           <p>${story.description}</p>
-          <a href="/#/story/${story.id}" class="btn">Lihat Detail</a>
+          <a href="/#/story/${story.id}" class="btn">Baca Selengkapnya</a>
         </div>
       </div>
     `).join('');
@@ -68,4 +68,15 @@ export default class BookmarkStoryPage {
       <p class="error-message">${message}</p>
     `;
   }
+  showToast(message) {
+  const toast = document.createElement('div');
+  toast.className = 'toast-message';
+  toast.innerText = message;
+  document.body.appendChild(toast);
+
+  setTimeout(() => {
+    toast.remove();
+  }, 3000);
+}
+
 }

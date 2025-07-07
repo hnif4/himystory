@@ -64,6 +64,24 @@
       "sizes": "1353x723",
       "type": "image/png",
       "form_factor": "wide"
+    },
+    {
+      "src": "images/screenshots/himystory_004.jpg",
+      "sizes": "1080x2255",
+      "type": "image/jpg",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "images/screenshots/himystory_005.jpg",
+      "sizes": "1080x2256",
+      "type": "image/jpg",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "images/screenshots/himystory_006.jpg",
+      "sizes": "1080x2260",
+      "type": "image/jpg",
+      "form_factor": "narrow"
     }
   ],
   "shortcuts": [
