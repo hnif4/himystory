@@ -16,7 +16,6 @@ document.addEventListener('DOMContentLoaded', async () => {
   
 
   await app.renderPage();
-  updateNavigation();
 
   const skipLink = document.getElementById('skip-link');
   const mainContent = document.getElementById('main-content');
